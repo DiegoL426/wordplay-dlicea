@@ -138,7 +138,8 @@ export default class NumberType extends BasisType {
                 !thisUnit.accepts(thatUnit)
             )
                 return false;
-        }
+        }   
+
         return true;
     }
 
